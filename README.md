@@ -1,1 +1,1 @@
-# TPI-Organizaci-n-Empresarial-TUP
+# TPI-Organizacion-Empresarial-TUP
