@@ -53,6 +53,7 @@ _Seguir las instrucciones del bot.
 | 1, 2, 3 | Elegir alternativa |
 
 ## Flujo del Bot
+
 1.El usuario escribe /start
 2.El bot muestra la lista de empleados registrados
 3.El usuario escribe su nombre completo
