@@ -71,6 +71,6 @@ _Seguir las instrucciones del bot.
   2: Esperar a tener más días
   3: Contactar a RRH
 
-## Archvo.PDF
+## Archivo.PDF
 Link: [TPI - Sol Micaela Ortiz - Gustavo Alberto Rivarola.pdf](https://github.com/user-attachments/files/29120908/TPI.-.Sol.Micaela.Ortiz.-.Gustavo.Alberto.Rivarola.pdf)
 
