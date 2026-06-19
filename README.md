@@ -54,23 +54,23 @@ _Seguir las instrucciones del bot.
 
 ## Flujo del Bot
 
-1.El usuario escribe /start
-2.El bot muestra la lista de empleados registrados
-3.El usuario escribe su nombre completo
-4.El bot confirma identidad y muestra días disponibles
-5.El usuario escribe solicitar
-6.El bot pide las fechas (YYYY-MM-DD YYYY-MM-DD)
+1.El usuario escribe /start <br>
+2.El bot muestra la lista de empleados registrados <br>
+3.El usuario escribe su nombre completo <br>
+4.El bot confirma identidad y muestra días disponibles <br>
+5.El usuario escribe solicitar <br> 
+6.El bot pide las fechas (YYYY-MM-DD YYYY-MM-DD) <br>
 7.El bot valida:
-  *Formato de fecha correcto
-  *Fecha no anterior a hoy
-  *Fecha fin mayor a fecha inicio
-  *Máximo 20 días de vacaciones
-  *Días disponibles suficientes
-8.Si todo está bien → Vacaciones aprobadas (se descuentan días y se actualiza el CSV)
+  - Formato de fecha correcto
+  - Fecha no anterior a hoy
+  - Fecha fin mayor a fecha inicio
+  - Máximo 20 días de vacaciones
+  - Días disponibles suficientes <br>
+8.Si todo está bien → Vacaciones aprobadas (se descuentan días y se actualiza el CSV) <br>
 9.Si no hay días suficientes → El bot ofrece 3 alternativas:
-  1. Pedir menos días
-  2. Esperar a tener más días
-  3. Contactar a RRH
+  - Pedir menos días
+  - Esperar a tener más días
+  - Contactar a RRH
 
 ## Archivo.PDF
 Link:[TPI - Sol Micaela Ortiz - Gustavo Alberto Rivarola (1).pdf](https://github.com/user-attachments/files/29137056/TPI.-.Sol.Micaela.Ortiz.-.Gustavo.Alberto.Rivarola.1.pdf)
