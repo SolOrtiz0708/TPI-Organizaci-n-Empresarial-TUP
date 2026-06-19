@@ -72,5 +72,5 @@ _Seguir las instrucciones del bot.
   3: Contactar a RRH
 
 ## Archivo.PDF
-Link: [TPI - Sol Micaela Ortiz - Gustavo Alberto Rivarola.pdf](https://github.com/user-attachments/files/29120908/TPI.-.Sol.Micaela.Ortiz.-.Gustavo.Alberto.Rivarola.pdf)
+Link:[TPI - Sol Micaela Ortiz - Gustavo Alberto Rivarola (1).pdf](https://github.com/user-attachments/files/29137056/TPI.-.Sol.Micaela.Ortiz.-.Gustavo.Alberto.Rivarola.1.pdf)
 
