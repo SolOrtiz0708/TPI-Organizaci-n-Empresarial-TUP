@@ -42,6 +42,19 @@ def buscar_empleado(nombre):
             return emp
     return None
 
+def guardar_dias(nombre, nuevos_dias):
+    """Actualiza los días disponibles en el CSV"""
+    empleados = leer_empleados()
+
+    for emp in empleados:
+        if emp['nombre_completo'].lower() == nombre.lower():
+            emp['dias_vacaciones'] = str(nuevos_dias)
+
+    with open(archivo_empleados, 'w', newline='', encoding='utf-8') as archivo:
+        campos = ['id', 'nombre_completo', 'dias_vacaciones']
+        writer = csv.DictWriter(archivo, fieldnames=campos)
+        writer.writeheader()
+        writer.writerows(empleados)
 # ========================================
 # COMANDOS DEL BOT
 # ========================================
@@ -195,6 +208,9 @@ def mensajes(message):
             
             # Si todo está bien, aprobar
             usuario['dias'] -= dias
+            # Guardar en el CSV
+            guardar_dias(usuario['nombre'], usuario['dias']) 
+
             bot.send_message(
                 chat_id,
                 f"✅ ¡VACACIONES APROBADAS!\n\n"
